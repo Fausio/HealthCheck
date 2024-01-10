@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetch-data/fetch-data.component';
+import { HealthCheckComponent } from './components/health-check/health-check.component';
  
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FetchDataComponent } from './components/fetch-data/fetch-data.component
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    HealthCheckComponent
   ],
   imports: [
     BrowserModule, 
