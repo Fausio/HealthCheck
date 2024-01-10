@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "HealthCheck", "HealthCheck\HealthCheck.esproj", "{12754CD9-EAAE-40F5-8546-008ACF7563B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.api", "HealthCheck.api\HealthCheck.api.csproj", "{CEF88ECA-6F06-4D37-9ABE-D423D4D5289F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HealthCheck.api", "HealthCheck.api\HealthCheck.api.csproj", "{CEF88ECA-6F06-4D37-9ABE-D423D4D5289F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMPHealthCheck.domain", "ICMPHealthCheck.domain\ICMPHealthCheck.domain.csproj", "{A49D0667-3374-4065-89CA-CAA0877AA23C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{CEF88ECA-6F06-4D37-9ABE-D423D4D5289F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF88ECA-6F06-4D37-9ABE-D423D4D5289F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF88ECA-6F06-4D37-9ABE-D423D4D5289F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49D0667-3374-4065-89CA-CAA0877AA23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D0667-3374-4065-89CA-CAA0877AA23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D0667-3374-4065-89CA-CAA0877AA23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D0667-3374-4065-89CA-CAA0877AA23C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
